@@ -175,6 +175,8 @@ section.action, section.payments, section.cancel, section.support {
     }
   }
 
+
+/*-----------MEDIA QUERIES--------------*/
   @media (min-width:479px) {
     header {
       nav {
@@ -192,5 +194,48 @@ section.action, section.payments, section.cancel, section.support {
         h2 {
           font-size: 4.8em;
         }
+    }
+  }
+
+  @media (min-width:767px) {
+    main {
+      padding: 10px 0;
+    }
+    section.prices {
+      @include span-columns(12);
+      @include omega;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      @include shift(.3);
+
+    .price {
+      margin-top: 30px;
+      display: block;
+      text-align: center;
+      color: #fff;
+      padding: 0 10px;
+      // width: 33%;
+      @include span-columns(4 of 12);
+      @include omega;
+      &.personal div {
+        margin-top: 0;
+      }
+     }
+    }
+    section.actions {
+      @include span-columns(12);
+      @include omega;
+      margin: 0 auto;
+      width: 100%;
+      @include shift(.3);
+
+    section.action, section.payments,
+    section.cancel, section.support {
+
+      @include span-columns(6 of 12);
+      @include omega;
+        padding: 10px 15px 0px 15px;
+      }
     }
   }
