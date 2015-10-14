@@ -1,0 +1,22 @@
+{
+  "name": "\"Grid Homework\"",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mellenklein/homework_week2_wed",
+  "authors": [
+    "Mary Ellen Klein <maryellenklein@gmail.com>"
+  ],
+  "description": "\"Grid Practice Homework\"",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "neat": "~1.7.2"
+  }
+}
