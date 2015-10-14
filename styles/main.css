@@ -52,7 +52,7 @@ section.hero {
     font-size: 3.5em;
     font-weight: 400;
     margin: 0 auto;
-    text-shadow: 3px 3px 1 #000; }
+    text-shadow: 1px 1px #000; }
 
 section.prices {
   float: left;
@@ -169,3 +169,16 @@ footer {
     footer p a {
       color: #E0E0E0;
       line-height: 1.4em; }
+
+@media (min-width: 479px) {
+  header nav {
+    text-align: left; }
+  main {
+    padding: 10px; }
+  section.hero {
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding-top: 150px; }
+    section.hero h2 {
+      font-size: 4.8em; } }
