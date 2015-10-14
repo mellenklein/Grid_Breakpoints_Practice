@@ -239,3 +239,10 @@ section.action, section.payments, section.cancel, section.support {
       }
     }
   }
+
+  @media (min-width:978px) {
+    main {
+      @include outer-container(80%);
+      padding: 15px;
+    }
+  }
